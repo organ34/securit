@@ -1,0 +1,106 @@
+---------Money Threats---------
+android.permission.ACCESS_NETWORK_STATE
+android.permission.RECORD_AUDIO
+android.permission.RECEIVE_SMS
+[0.4, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]
+
+---------Privacy Threats---------
+android.permission.GET_ACCOUNTS
+android.permission.CAMERA
+android.permission.READ_CONTACTS
+android.permission.ACCESS_FINE_LOCATION
+android.permission.MODIFY_AUDIO_SETTINGS
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.READ_PHONE_STATE
+[1.0, 1.0, 1.0, 1.0, 0.2, 1.0, 1.0]
+
+---------System Threats---------
+android.permission.INTERNET
+android.permission.WAKE_LOCK
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.VIBRATE
+com.android.launcher.permission.INSTALL_SHORTCUT
+[0.8, 0.4, 0.0, 0.0, 0.0, 0.0, 0.0]
+|------------------------------------|
+|Sigma = 2.4828005288846002
+|------------------------------------|
+
+
+---------Sigma Matrix---------
+
+1.0   7.0   3.0   
+0.14285714285714285   1.0   4.0   
+0.3333333333333333   0.25   1.0   
+
+---------Downloads Matrix---------
+
+1.0   9.0   7.0   
+0.1111111111111111   1.0   2.0   
+0.14285714285714285   0.5   1.0   
+
+---------Rating Matrix---------
+
+1.0   5.0   7.0   
+0.2   1.0   2.0   
+0.14285714285714285   0.5   1.0   
+
+---------Sigma EigenVector---------
+0.6853518579991752
+0.2061439393570384
+0.10850420264378643
+
+
+---------Downloads EigenVector---------
+0.7958632338449725
+0.12114881225166563
+0.08298795390336189
+
+
+---------Downloads EigenVector---------
+0.7395940327708487
+0.1665932990951333
+0.09381266813401812
+
+Result if there are equal weights on Perimissions, Number of Downloads and Ratings
+
+Global Priority
+0.7402697082049987
+0.16462868356794574
+0.09510160822705548
+
+|------------------------------------|
+|RESULT: TRUSTED                     |
+|------------------------------------|
+
+Result if Perimissions are more important
+
+Global Priority
+0.7129037010102803
+0.18514797054453794
+0.10194832844518173
+
+|------------------------------------|
+|RESULT: TRUSTED                     |
+|------------------------------------|
+
+Result if Number of Downloads are more important
+
+Global Priority
+0.76415151328487
+0.14617878813375587
+0.08966969858137423
+
+|------------------------------------|
+|RESULT: TRUSTED                     |
+|------------------------------------|
+
+Result if Rating are more important
+
+Global Priority
+0.7528826648196207
+0.15550402986230774
+0.09161330531807155
+
+|------------------------------------|
+|RESULT: TRUSTED                     |
+|------------------------------------|
